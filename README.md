@@ -116,19 +116,6 @@ Six visualizer styles to choose from:
 
 ---
 
-## How to publish a GitHub Release
-
-1. Create a free account at [github.com](https://github.com) and make a new **public** repository named `theme-engine`
-2. Upload `README.md`, `wallpaper_engine2.py`, and `build_theme_engine.py` to the repo (these are small text files — no size issue)
-3. Go to **Releases → Draft a new release**
-4. Set tag to `v4.2`, title to `Theme Engine v4.2`
-5. Attach `ThemeEngine.exe` and `libmpv-2.dll` as release assets (up to 2 GB each — GitHub CDN, fast global download)
-6. Publish — the download links above will work immediately
-
-> **Note:** Never commit `ThemeEngine.exe` or `libmpv-2.dll` via `git push` — use Release assets only. The git file size limit is 100 MB; Release assets support up to 2 GB.
-
----
-
 ## Usage
 
 ### Setting a live wallpaper
