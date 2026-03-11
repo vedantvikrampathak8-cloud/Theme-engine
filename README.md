@@ -2,8 +2,6 @@
 
 A live wallpaper engine for Windows that plays video as your desktop background and dynamically adapts your system accent colour, taskbar, and title bars to match the mood of whatever is playing.
 
-> ⚠️ **Replace `YOUR_USERNAME` with your GitHub username everywhere below after creating the repo.**
-
 ---
 
 ## ⬇️ Download
@@ -12,8 +10,6 @@ A live wallpaper engine for Windows that plays video as your desktop background 
 |---|---|
 | [**ThemeEngine.exe**](https://github.com/YOUR_USERNAME/theme-engine/releases/latest/download/ThemeEngine.exe) | Ready-to-run exe — no install needed |
 | [**libmpv-2.dll**](https://github.com/YOUR_USERNAME/theme-engine/releases/latest/download/libmpv-2.dll) | mpv media engine (place next to the exe) |
-
-👉 **[View all releases](https://github.com/YOUR_USERNAME/theme-engine/releases/latest)**
 
 Place both files in the same folder and run `ThemeEngine.exe`. That's it.
 
