@@ -103,9 +103,19 @@ Six visualizer styles to choose from:
 
 ---
 
-## Where to get `libmpv-2.dll`
+## Download
 
-Download the latest `mpv-dev-x86_64-DATE-git-HASH.7z` from:
+A ready-to-use package containing `ThemeEngine.exe` and `libmpv-2.dll` is available here:
+
+> **[📦 Google Drive — Theme Engine](https://drive.google.com/drive/folders/1q3Xya56yvP2Jd3nxTReFXGUbW275ZzMU?usp=sharing)**
+
+Download both files, place them in the same folder, and run `ThemeEngine.exe` — no installation needed.
+
+---
+
+## Where to get `libmpv-2.dll` (source users only)
+
+If you are running from source rather than using the download above, grab the latest `mpv-dev-x86_64-DATE-git-HASH.7z` from:
 
 > https://github.com/shinchiro/mpv-winbuild-cmake/releases
 
