@@ -116,7 +116,7 @@ Six visualizer styles to choose from:
 
 ### To build the exe (`build_theme_engine.py`)
 - Python 3.10+ (64-bit)
-- `wallpaper_engine2.py` and `libmpv-2.dll` in the same folder
+- `Theme_engine2.py` and `libmpv-2.dll` in the same folder
 - PyInstaller (auto-installed by the build script)
 
 ---
@@ -124,16 +124,16 @@ Six visualizer styles to choose from:
 ## Getting Started
 
 ### Running from source
-1. Place `wallpaper_engine2.py` and `libmpv-2.dll` in the same folder
+1. Place `Theme_engine2.py` and `libmpv-2.dll` in the same folder
 2. Run:
    ```
-   python wallpaper_engine2.py
+   python Theme_engine2.py
    ```
 3. On first run, a setup window will install the required Python packages automatically (one time only, takes ~1 minute)
 4. Once loaded, click **Browse** to pick a video file, then **▶ Play**
 
 ### Building the exe
-1. Place `build_theme_engine.py`, `wallpaper_engine2.py`, and `libmpv-2.dll` in the same folder
+1. Place `build_theme_engine.py`, `Theme_engine2.py`, and `libmpv-2.dll` in the same folder
 2. Run:
    ```
    python build_theme_engine.py
@@ -190,7 +190,7 @@ Six visualizer styles to choose from:
 
 ```
 theme-engine/
-├── wallpaper_engine2.py     # Main application (run directly or build into exe)
+├── Theme_engine2.py     # Main application (run directly or build into exe)
 ├── build_theme_engine.py    # PyInstaller build script → produces ThemeEngine.exe
 ├── README.md                # This file
 │
