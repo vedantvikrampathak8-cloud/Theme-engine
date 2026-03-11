@@ -10,7 +10,7 @@ A live wallpaper engine for Windows that plays video as your desktop background 
 Windows SmartScreen and some antivirus tools warn about any new executable
 that hasn't been downloaded thousands of times yet, regardless of whether
 it contains anything harmful. This is a reputation system, not a virus
-detection. VirusTotal scan: [0/72 engines](https://www.virustotal.com) ← replace with your actual link
+detection. VirusTotal scan: [0/72 engines]
 
 ### If Edge blocks the download
 1. Click the **three dots (···)** next to the blocked file
