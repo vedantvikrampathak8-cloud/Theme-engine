@@ -1,15 +1,16 @@
 # 🎨 Theme Engine v4.2
 
 A live wallpaper engine for Windows that plays video as your desktop background and dynamically adapts your system accent colour, taskbar, and title bars to match the mood of whatever is playing.
-
 ---
 
 ## ⬇️ Download
 
 | File | Description |
 |---|---|
-| [**ThemeEngine.exe**]((https://github.com/vedantvikrampathak8-cloud/Theme-engine/releases/tag/ThemeEngine)) | Ready-to-run exe — no install needed |
-| [**libmpv-2.dll**]((https://github.com/vedantvikrampathak8-cloud/Theme-engine/releases/tag/ThemeEngine)) | mpv media engine (place next to the exe) |
+| [**ThemeEngine.exe**](https://github.com/vedantvikrampathak8-cloud/Theme-engine/releases/latest/download/ThemeEngine.exe) | Ready-to-run exe — no install needed |
+| [**libmpv-2.dll**](https://github.com/vedantvikrampathak8-cloud/Theme-engine/releases/latest/download/libmpv-2.dll) | mpv media engine (place next to the exe) |
+
+👉 **[View all releases](https://github.com/vedantvikrampathak8-cloud/Theme-engine/releases/latest)**
 
 Place both files in the same folder and run `ThemeEngine.exe`. That's it.
 
@@ -74,7 +75,6 @@ Six visualizer styles to choose from:
 - Windows 10 or Windows 11 (64-bit)
 - Visual C++ Redistributable 2022 x64 — [download here](https://aka.ms/vs/17/release/vc_redist.x64.exe) (most PCs already have it)
 - That's it — `ThemeEngine.exe` is fully self-contained
-- Users can directy download ThemeEngine.exe from the release
 
 ### To run from source (`wallpaper_engine2.py`)
 - Python 3.10+ (64-bit)
@@ -114,6 +114,19 @@ Six visualizer styles to choose from:
    python build_theme_engine.py
    ```
 3. The output is `dist/ThemeEngine.exe` — upload this file (and `libmpv-2.dll`) to the GitHub Release
+
+---
+
+## How to publish a GitHub Release
+
+1. Create a free account at [github.com](https://github.com) and make a new **public** repository named `theme-engine`
+2. Upload `README.md`, `wallpaper_engine2.py`, and `build_theme_engine.py` to the repo (these are small text files — no size issue)
+3. Go to **Releases → Draft a new release**
+4. Set tag to `v4.2`, title to `Theme Engine v4.2`
+5. Attach `ThemeEngine.exe` and `libmpv-2.dll` as release assets (up to 2 GB each — GitHub CDN, fast global download)
+6. Publish — the download links above will work immediately
+
+> **Note:** Never commit `ThemeEngine.exe` or `libmpv-2.dll` via `git push` — use Release assets only. The git file size limit is 100 MB; Release assets support up to 2 GB.
 
 ---
 
