@@ -23,7 +23,7 @@ from pathlib import Path
 
 # ── Config ────────────────────────────────────────────────────────────────────
 APP_NAME    = "ThemeEngine"
-SCRIPT_NAME = "wallpaper_engine2.py"
+SCRIPT_NAME = "Theme_engine2.py"
 DLL_NAME    = "libmpv-2.dll"          # must sit next to this build script
 ICON_FILE   = None                    # set to "theme_engine.ico" if you have one
 # ─────────────────────────────────────────────────────────────────────────────
