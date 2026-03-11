@@ -3,6 +3,34 @@
 A live wallpaper engine for Windows that plays video as your desktop background and dynamically adapts your system accent colour, taskbar, and title bars to match the mood of whatever is playing.
 ---
 
+## 🛡️ Windows Security Warning (Expected)
+
+**ThemeEngine.exe is safe — this warning is expected for indie software.**
+
+Windows SmartScreen and some antivirus tools warn about any new executable
+that hasn't been downloaded thousands of times yet, regardless of whether
+it contains anything harmful. This is a reputation system, not a virus
+detection. VirusTotal scan: [0/72 engines](https://www.virustotal.com) ← replace with your actual link
+
+### If Edge blocks the download
+1. Click the **three dots (···)** next to the blocked file
+2. Click **Keep**
+3. Click **Show more** → **Keep anyway**
+
+### If Windows shows "Windows protected your PC"
+1. Click **More info**
+2. Click **Run anyway**
+
+### If your antivirus quarantines it
+Right-click the exe → **Properties** → tick **Unblock** → **OK**
+
+Or add an exclusion in your AV for the ThemeEngine folder.
+
+**Why does this happen?** Theme Engine uses low-level Windows APIs to render
+video behind your desktop icons and capture audio — the same techniques used
+by Steam Wallpaper Engine. These capabilities look suspicious to automated
+scanners that have never seen this specific file before.
+
 ## ⬇️ Download
 
 👉 **[Download ThemeEngine.exe](https://github.com/vedantvikrampathak8-cloud/Theme-engine/releases/latest/download/ThemeEngine.exe)**
