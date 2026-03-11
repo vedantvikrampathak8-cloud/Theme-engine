@@ -5,14 +5,11 @@ A live wallpaper engine for Windows that plays video as your desktop background 
 
 ## ⬇️ Download
 
-| File | Description |
-|---|---|
-| [**ThemeEngine.exe**](https://github.com/vedantvikrampathak8-cloud/Theme-engine/releases/latest/download/ThemeEngine.exe) | Ready-to-run exe — no install needed |
-| [**libmpv-2.dll**](https://github.com/vedantvikrampathak8-cloud/Theme-engine/releases/latest/download/libmpv-2.dll) | mpv media engine (place next to the exe) |
+👉 **[Download ThemeEngine.exe](https://github.com/vedantvikrampathak8-cloud/Theme-engine/releases/latest/download/ThemeEngine.exe)**
 
-👉 **[View all releases](https://github.com/vedantvikrampathak8-cloud/Theme-engine/releases/latest)**
+Just download and run — `libmpv-2.dll` and all other dependencies are bundled inside the exe. No extra files needed.
 
-Place both files in the same folder and run `ThemeEngine.exe`. That's it.
+[View all releases](https://github.com/vedantvikrampathak8-cloud/Theme-engine/releases/latest)
 
 > **Requires:** Windows 10/11 64-bit · Visual C++ Redistributable 2022 x64 ([download](https://aka.ms/vs/17/release/vc_redist.x64.exe) — most PCs already have it)
 
@@ -78,7 +75,7 @@ Six visualizer styles to choose from:
 
 ### To run from source (`wallpaper_engine2.py`)
 - Python 3.10+ (64-bit)
-- `libmpv-2.dll` placed in the same folder as the script
+- `libmpv-2.dll` placed in the same folder as the script (only needed when running from source — already bundled in the exe)
 - Python packages (auto-installed on first run):
   ```
   PyQt5
@@ -114,8 +111,6 @@ Six visualizer styles to choose from:
    python build_theme_engine.py
    ```
 3. The output is `dist/ThemeEngine.exe` — upload this file (and `libmpv-2.dll`) to the GitHub Release
-4. 
----
 
 ## Usage
 
@@ -172,8 +167,7 @@ theme-engine/
 ├── README.md                # This file
 │
 │   (not in repo — attached to GitHub Release)
-├── ThemeEngine.exe          # Built exe — upload as release asset
-└── libmpv-2.dll             # mpv media engine — upload as release asset
+└── ThemeEngine.exe          # Built exe (libmpv-2.dll bundled inside) — upload as release asset
 ```
 
 ---
