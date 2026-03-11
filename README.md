@@ -74,6 +74,7 @@ Six visualizer styles to choose from:
 - Windows 10 or Windows 11 (64-bit)
 - Visual C++ Redistributable 2022 x64 — [download here](https://aka.ms/vs/17/release/vc_redist.x64.exe) (most PCs already have it)
 - That's it — `ThemeEngine.exe` is fully self-contained
+- and users can directy download ThemeEngine.exe from the release
 
 ### To run from source (`wallpaper_engine2.py`)
 - Python 3.10+ (64-bit)
