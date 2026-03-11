@@ -8,8 +8,8 @@ A live wallpaper engine for Windows that plays video as your desktop background 
 
 | File | Description |
 |---|---|
-| [**ThemeEngine.exe**](https://github.com/YOUR_USERNAME/theme-engine/releases/latest/download/ThemeEngine.exe) | Ready-to-run exe — no install needed |
-| [**libmpv-2.dll**](https://github.com/YOUR_USERNAME/theme-engine/releases/latest/download/libmpv-2.dll) | mpv media engine (place next to the exe) |
+| [**ThemeEngine.exe**]([https://github.com/YOUR_USERNAME/theme-engine/releases/latest/download/ThemeEngine.exe](https://github.com/vedantvikrampathak8-cloud/Theme-engine/releases/tag/ThemeEngine)) | Ready-to-run exe — no install needed |
+| [**libmpv-2.dll**]([https://github.com/YOUR_USERNAME/theme-engine/releases/latest/download/libmpv-2.dll](https://github.com/vedantvikrampathak8-cloud/Theme-engine/releases/tag/ThemeEngine)) | mpv media engine (place next to the exe) |
 
 Place both files in the same folder and run `ThemeEngine.exe`. That's it.
 
