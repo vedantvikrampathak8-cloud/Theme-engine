@@ -1,4 +1,4 @@
-# 🎨 Theme Engine v4.2
+# 🎨 Theme Engine v4.3
 
 A live wallpaper engine for Windows that plays video as your desktop background and dynamically adapts your system accent colour, taskbar, and title bars to match the mood of whatever is playing.
 ---
