@@ -1168,8 +1168,8 @@ class Overlay(QWidget):
         pen_col = QColor(self._bar_col); pen_col.setAlpha(220)
         p.setPen(QPen(pen_col, 2.5, Qt.SolidLine, Qt.RoundCap, Qt.RoundJoin)); p.setBrush(Qt.NoBrush); p.drawPath(path)
         p.setPen(Qt.NoPen); dc = QColor(255, 255, 255, 180); p.setBrush(QBrush(dc))
-        for x, y in pts:
-            if self._bars[pts.index((x,y))] > 0.3: p.drawEllipse(QPointF(x, y), 2.5, 2.5)
+        for i, (x, y) in enumerate(pts):
+            if self._bars[i] > 0.3: p.drawEllipse(QPointF(x, y), 2.5, 2.5)
 
     def _viz_dots(self, p):
         x0, y_base, BAR_W, GAP, MAX_H = self._bar_geometry(); DOT = max(4, BAR_W); STEP = DOT + 2
